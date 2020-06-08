@@ -1,0 +1,17 @@
+{
+  "$schema": "https://deno.land/x/denon/schema.json",
+  "scripts": {
+    "start":  {
+    "cmd": "deno run main.ts",
+     "desc": "Run the main Server Deno on localhost 8080." ,
+
+     "allow": [
+        "env",
+        "write" ,
+        "read" ,
+        "net"
+      ] ,
+      "unstable": true
+    }
+  }
+}

@@ -11,6 +11,12 @@
     "test" :{
      "cmd"  : "deno test test.ts"  ,
      "desc" :"Run Tests for this nice App"
+    },
+    "test_users" :{
+     "cmd"  : "deno test user_test.ts"  ,
+     "desc" :"Run Tests for user crud In database" ,
+     "allow": ["env", "write", "read", "net" , "plugin" ] ,
+    "unstable": true
     }
   }
 }
